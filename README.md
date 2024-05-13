@@ -1,5 +1,7 @@
 # Relighting-pettaha
 
+![a-sleek-and-modern-workspace-featuring-a-computer--P7tJX7BzQ6GpEcV3BcscxQ-yYMXx5vPSSWhc0UtWd5UYw](https://github.com/Metacolombo/Relighting-pettaha/assets/167883376/e9d4e627-a812-40be-a9e2-6d7cab8e7fd0)
+
 
 Relighting-pettaha is a project to manipulate the illumination of images.
 
@@ -7,7 +9,7 @@ The name "Relighting-pettaha" stands for **"Imposing Consistent Light"**.
 
 Currently, we release two types of models: text-conditioned relighting model and background-conditioned model. Both types take foreground images as inputs.
 
-# Get Started
+## Get Started
 
 Below script will run the text-conditioned relighting model:
 
@@ -28,7 +30,7 @@ Model downloading is automatic.
 
 
 
-# Imposing Consistent Light
+## Imposing Consistent Light
 
 In HDR space, illumination has a property that all light transports are independent. 
 
@@ -49,7 +51,7 @@ From left to right are inputs, model outputs relighting, devided shadow image, a
 
 
 
-# Model Notes
+## Model Notes
 
 * **Relighting-pettaha_sd15_fc.safetensors** - The default relighting model, conditioned on text and foreground. You can use initial latent to influence the relighting.
 

@@ -3,7 +3,7 @@
 
 Relighting-pettaha is a project to manipulate the illumination of images.
 
-The name "Relighting-pettaha" stands for **"Imposing Consistent Light"** (we will briefly describe this at the end of this page).
+The name "Relighting-pettaha" stands for **"Imposing Consistent Light"**.
 
 Currently, we release two types of models: text-conditioned relighting model and background-conditioned model. Both types take foreground images as inputs.
 
@@ -51,11 +51,11 @@ From left to right are inputs, model outputs relighting, devided shadow image, a
 
 # Model Notes
 
-* **iclight_sd15_fc.safetensors** - The default relighting model, conditioned on text and foreground. You can use initial latent to influence the relighting.
+* **Relighting-pettaha_sd15_fc.safetensors** - The default relighting model, conditioned on text and foreground. You can use initial latent to influence the relighting.
 
-* **iclight_sd15_fcon.safetensors** - Same as "iclight_sd15_fc.safetensors" but trained with offset noise. Note that the default "iclight_sd15_fc.safetensors" outperform this model slightly in a user study. And this is the reason why the default model is the model without offset noise.
+* **Relighting-pettaha_sd15_fcon.safetensors** - Same as "Relighting-pettaha_sd15_fc.safetensors" but trained with offset noise. Note that the default "Relighting-pettaha_sd15_fc.safetensors" outperform this model slightly in a user study. And this is the reason why the default model is the model without offset noise.
 
-* **iclight_sd15_fbc.safetensors** - Relighting model conditioned with text, foreground, and background.
+* **Relighting-pettaha_sd15_fbc.safetensors** - Relighting model conditioned with text, foreground, and background.
 
   www.pettahai.com | seja menath de silva 2024
 

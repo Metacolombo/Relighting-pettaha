@@ -229,6 +229,6 @@ And, switchlight (switchlight is another great work!):
 
 * **iclight_sd15_fbc.safetensors** - Relighting model conditioned with text, foreground, and background.
 
-  `www,pettahai.com`
+  www.pettahai.com
 
 
